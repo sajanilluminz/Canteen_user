@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "193708572397",
+    "project_id": "illuminz-canteen-app",
+    "storage_bucket": "illuminz-canteen-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193708572397:android:9277c2616f013e517c96e4",
+        "android_client_info": {
+          "package_name": "com.canteenapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193708572397-feok3mcq7tpjemn5r6ss63fh9bdiucat.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.canteenapp",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "193708572397-5jtdnou2gbki96qguukp41oth05hr3no.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlw7_cnfRNefGerd7PuRR_CJKAUTyEdIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193708572397-5jtdnou2gbki96qguukp41oth05hr3no.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "193708572397-77naq6bcm26diquvg7ef9s1vsb925f3m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.illuminz.icanteen"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193708572397:android:192ef5b3592c74eb7c96e4",
+        "android_client_info": {
+          "package_name": "com.illuminz.canteen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193708572397-6vffvl22tbnbl8ftjge45ihnpbp72r0f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.illuminz.canteen",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "193708572397-asuhjo2nu3tee2q65phkvvogh0s78bu0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.illuminz.canteen",
+            "certificate_hash": "d9b7809a0e94b1a0b74ad736ba33774503fcba15"
+          }
+        },
+        {
+          "client_id": "193708572397-jfm9a1lk881ptnp7rv8k8ofeciv96uis.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.illuminz.canteen",
+            "certificate_hash": "a10ccb659a390a000d6fd01862716cf2491a8b83"
+          }
+        },
+        {
+          "client_id": "193708572397-s4ji2ta13vi772j3s757fck4p1hrr74t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.illuminz.canteen",
+            "certificate_hash": "b362186b321bfb75562e9e68c9be3398ac928c01"
+          }
+        },
+        {
+          "client_id": "193708572397-5jtdnou2gbki96qguukp41oth05hr3no.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlw7_cnfRNefGerd7PuRR_CJKAUTyEdIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193708572397-5jtdnou2gbki96qguukp41oth05hr3no.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "193708572397-77naq6bcm26diquvg7ef9s1vsb925f3m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.illuminz.icanteen"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

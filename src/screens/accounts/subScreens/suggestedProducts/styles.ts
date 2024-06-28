@@ -1,0 +1,181 @@
+import {StyleSheet} from 'react-native';
+import {
+  scaledValue,
+  fontFamily,
+  colors,
+  fontsSizes,
+} from '~utils/styles.common';
+
+export const styles = StyleSheet.create({
+  date: {
+    fontSize: scaledValue(14),
+    marginTop: scaledValue(20),
+    color: '#23212E',
+    fontFamily: fontFamily.prompt500,
+  },
+  container: {
+    marginTop: scaledValue(20),
+    flex: 1,
+  },
+  newItemCardView: {
+    marginTop: scaledValue(27),
+    flexDirection: 'row',
+    height: scaledValue(90),
+    justifyContent: 'space-between',
+    width: '90%',
+    alignItems: 'center',
+  },
+  newItemCardLeftView: {
+    flexDirection: 'row',
+  },
+  noRecentImage: {
+    width: scaledValue(215),
+    marginBottom: scaledValue(8),
+    height: scaledValue(229),
+    resizeMode: 'contain',
+  },
+  noRecent: {
+    color: colors.darkGreen,
+    fontSize: fontsSizes.twentyFour,
+    fontFamily: fontFamily.prompt700,
+    marginBottom: scaledValue(150),
+  },
+  containerNoOrders: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  mainImage: {
+    width: scaledValue(88),
+    height: scaledValue(92),
+    position: 'relative',
+    top: 0,
+    left: 0,
+    resizeMode: 'contain',
+  },
+  newTag: {
+    width: scaledValue(44),
+    position: 'absolute',
+    top: 0,
+    right: 0,
+    height: scaledValue(22),
+  },
+  imageView: {
+    width: scaledValue(90),
+  },
+  quantityDeatailsView: {
+    marginLeft: scaledValue(7),
+    justifyContent: 'center',
+    height: '100%',
+  },
+  categroyText: {
+    color: '#5E5C66',
+    fontFamily: fontFamily.prompt400,
+    fontSize: scaledValue(10),
+  },
+  productHeading: {
+    fontFamily: fontFamily.prompt500,
+    fontSize: scaledValue(14),
+    color: '#042F1F',
+  },
+  approved: {
+    fontFamily: fontFamily.prompt400,
+    fontSize: fontsSizes.twelve,
+    color: 'rgba(53, 167, 122, 1)',
+  },
+  pending: {
+    color: 'rgba(95, 82, 12, 1)',
+    fontFamily: fontFamily.prompt400,
+    fontSize: fontsSizes.twelve,
+  },
+  pendingContainer: {
+    height: 28,
+    width: 75,
+    borderRadius: 9,
+    marginTop: 5,
+    backgroundColor: 'rgba(249, 227, 110, 1)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    overflow: 'hidden',
+  },
+  approvedContainer: {
+    height: 28,
+    width: 75,
+    borderRadius: 9,
+    marginTop: 5,
+    backgroundColor: 'rgba(218, 236, 225, 1)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    overflow: 'hidden',
+  },
+  priceAndTimeContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  newItemRightView: {
+    alignItems: 'flex-end',
+    justifyContent: 'space-between',
+  },
+  button: {
+    width: scaledValue(20),
+    marginTop: 9,
+    height: scaledValue(20),
+    resizeMode: 'contain',
+  },
+  time: {
+    fontSize: scaledValue(12),
+    marginRight: 11,
+    fontFamily: fontFamily.prompt500,
+    color: '#61766F',
+  },
+  bin: {
+    width: scaledValue(20),
+    height: scaledValue(20),
+    resizeMode: 'contain',
+  },
+  repeatOrderText: {
+    color: '#35A77A',
+    fontSize: scaledValue(14),
+  },
+  repeatView: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  buttonContianer: {
+    width: '120%',
+    alignSelf: 'center',
+    paddingVertical: 20,
+    backgroundColor: '#fff',
+    position: 'absolute',
+    bottom: 0,
+  },
+  errorView: {
+    width: '100%',
+    height: '100%',
+    position: 'absolute',
+    alignSelf: 'center',
+  },
+  RejectedContainer: {
+    backgroundColor: 'rgba(239, 214, 214, 1)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginRight: 4,
+    overflow: 'hidden',
+    height: 28,
+    width: 67,
+    borderRadius: 9,
+    marginTop: 5,
+  },
+  rejected: {
+    fontFamily: fontFamily.prompt400,
+    fontSize: fontsSizes.twelve,
+    color: 'rgba(142, 28, 28, 1)',
+  },
+  loaderMainView: {
+    position: 'absolute',
+    width: '120%',
+    alignSelf: 'center',
+    height: '120%',
+    backgroundColor: '#fff',
+  },
+});
